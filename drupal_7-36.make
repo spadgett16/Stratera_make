@@ -99,7 +99,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 
 ; Profile
-projects[art][type] = "profile"
-projects[art][download][type] = "git"
-projects[art][download][destination] = "profiles"
-projects[art][download][url]= "https://github.com/spadgett16/Stratera_profile.git"
+projects[strateratech][type] = "profile"
+projects[strateratech][download][type] = "git"
+projects[strateratech][download][destination] = "profiles"
+projects[strateratech][download][url]= "https://github.com/spadgett16/Stratera_profile.git"
