@@ -51,6 +51,10 @@ projects[multiblock][version] = "1.4"
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.0"
 
+projects[shield][subdir] = "contrib"
+projects[shield][version] = "1.2"
+
+
 projects[superfish][subdir] = "contrib"
 projects[superfish][version] = "1.9"
 
@@ -74,18 +78,30 @@ projects[helloworld][type] = "module"
 projects[helloworld][download][url] = "https://github.com/spadgett16/Strateratech_aegir.git"
 
 
+
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-;projects[icompany_module][download][type] = ""
-;projects[icompany_module][download][url] = ""
-;projects[icompany_module][type] = "module"
+projects[icompany_module][subdir] = "custom"
+projects[icompany_module][download][type] = "git"
+projects[icompany_module][type] = "module"
+projects[icompany_module][download][url] = "https://github.com/spadgett16/icompany_module.git"
+
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+projects[icompany_config][subdir] = "custom"
+projects[icompany_config][download][type] = "git"
+projects[icompany_config][type] = "module"
+projects[icompany_config][download][url] = "https://github.com/spadgett16/icompany_config.git"
+
 
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-;projects[icompany][download][type] = ""
-;projects[icompany][download][url] = ""
-;projects[icompany][type] = "theme"
+projects[icompany][type] = "theme"
+projects[icompany][download][type] = "git"
+projects[icompany][download][url] = "https://github.com/spadgett16/stratera_icompany_theme.git"
+
+
 
 ; Libraries
 libraries[superfish][directory_name] = superfish
