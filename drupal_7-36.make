@@ -63,7 +63,7 @@ projects[views][version] = "3.13"
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "4.12"
 
-projects[xmlsitesmap][subdir] = "contrib"
+projects[xmlsitemap][subdir] = "contrib"
 projects[xmlsitemap][version] = "2.2"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
