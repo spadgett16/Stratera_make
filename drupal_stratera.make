@@ -94,8 +94,8 @@ projects[multiblock][version] = "1.4"
 ;projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.0"
 
-;projects[page-title][subdir] = "contrib"
-projects[page-title][version] = "2.7"
+;projects[page_title][subdir] = "contrib"
+projects[page_title][version] = "2.7"
 
 ;check to see that this module gets installed 03_13_2016
 ;projects[rules][subdir] = "contrib"
