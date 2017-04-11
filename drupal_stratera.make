@@ -29,6 +29,9 @@ projects[commerce][subdir] = "contrib"
 projects[commerce_authnet][version] = "1.4"
 projects[commerce_authnet][subdir] = "contrib"
 
+projects[commerce_file][version] = "1.0"
+projects[commerce_file][subdir] = "contrib"
+
 projects[commerce_license][version] = "1.3"
 projects[commerce_license][subdir] = "contrib"
 
